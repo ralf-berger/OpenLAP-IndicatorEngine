@@ -6,6 +6,7 @@ metadata:
     kubernetes.io/tls-acme: "true"
     certmanager.k8s.io/cluster-issuer: letsencrypt-prod
     traefik.ingress.kubernetes.io/redirect-entry-point: https
+    description: OpenLAP
 spec:
   rules:
   - host: openlap.sc.inko.cloud
